@@ -16,6 +16,8 @@ Then to create the necessary VM you can just copy and paste this command:
 ```bash
 gcloud compute instances create instance-2 --zone=us-central1-c --machine-type=custom-8-43008 --boot-disk-size=200GB
 ``` 
+This could take 20-30 seconds to execute. Don't worry, it's working. 
+
 
 ## Conclusion
-You're all done! Go back to the game.
+You're all done! Close the window to go back to the game.
