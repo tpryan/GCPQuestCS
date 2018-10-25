@@ -4,7 +4,7 @@
 You've been tasked with creating a very specific VM for GCPQuest.  Don't worry!
 Continue with this guide to get it done!
 
-## Setup your project
+## Point at your project
 First set your project to the correct one to use for this tutorial:  
 ```bash
 gcloud config set project gcpquest-2019
