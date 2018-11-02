@@ -31,7 +31,7 @@ Click the [Create instance][spotlight-create-instance] button.
 *   Select a [name][spotlight-instance-name] and [zone][spotlight-instance-zone]
     for this instance.
 
-*   In the [Machine Type selector][spotlight-gce-add-machine-type], select **Customize**. 
+*   In the [Machine Type selector][spotlight-machine-type], select **Customize**. 
 
 *   Set [Cores][spotlight-p6n-custom-machine-type] to 8. 
 
@@ -109,7 +109,7 @@ Here's what you can do next:
     [run containers](https://cloud.google.com/compute/docs/containers).
 
 [pricing]: https://cloud.google.com/compute/#compute-engine-pricing
-[spotlight-create-instance]: walkthrough://spotlight-pointer?spotlightId=gce-zero-new-vm,gce-vm-list-new
+[spotlight-create-instance]: walkthrough://spotlight-pointer?=gce-zero-new-vm,gce-vm-list-new
 [spotlight-instance-name]: walkthrough://spotlight-pointer?spotlightId=gce-vm-add-name
 [spotlight-instance-zone]: walkthrough://spotlight-pointer?spotlightId=gce-vm-add-zone-select
 [spotlight-boot-disk]: walkthrough://spotlight-pointer?cssSelector=vm-set-boot-disk
@@ -125,3 +125,4 @@ Here's what you can do next:
 [spotlight-external-ip]: walkthrough://spotlight-pointer?cssSelector=.p6n-external-link
 [spotlight-instance-checkbox]: walkthrough://spotlight-pointer?cssSelector=.p6n-checkbox-form-label
 [spotlight-delete-button]: walkthrough://spotlight-pointer?cssSelector=.p6n-icon-delete
+[spotlight-machine-type]: walkthrough://spotlight-pointer?spotlightId=gce-add-machine-type
