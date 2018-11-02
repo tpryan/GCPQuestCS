@@ -31,11 +31,11 @@ Click the [Create instance][spotlight-create-instance] button.
 *   Select a [name][spotlight-instance-name] and [zone][spotlight-instance-zone]
     for this instance.
 
-*   In the [Machine Type selector][gce-add-machine-type], select **Customize**. 
+*   In the [Machine Type selector][spotlight-gce-add-machine-type], select **Customize**. 
 
-*   Set [Cores][p6n-custom-machine-type] to 8. 
+*   Set [Cores][spotlight-p6n-custom-machine-type] to 8. 
 
-*   Set [Memory][p6n-custom-machine-type] to 8. 
+*   Set [Memory][spotlight-p6n-custom-machine-type] to 8. 
 
 *   Click the [Create][spotlight-submit-create] button to create the instance.
 
