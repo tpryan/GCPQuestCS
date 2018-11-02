@@ -31,11 +31,11 @@ Click the [Create instance][spotlight-create-instance] button.
 *   Select a [name][spotlight-instance-name] and [zone][spotlight-instance-zone]
     for this instance.
 
-*   In the [Machine Type selector][spotlight-machine-type], select **Customize**. 
+*   In the Machine Type selector, select **Customize**. 
 
-*   Set [Cores][spotlight-p6n-custom-machine-type] to 8. 
+*   Set **Cores** to 8. 
 
-*   Set [Memory][spotlight-p6n-custom-machine-type] to 8. 
+*   Set **Memory** to 42. 
 
 *   Click the [Create][spotlight-submit-create] button to create the instance.
 
@@ -74,13 +74,7 @@ top.
 
 ### Connect to the instance
 
-Enter the following command to SSH into the VM. If this is your first time using
-SSH from Cloud Shell, you will need to create a private key. Enter the zone and
-name of the instance you created.
-
-```bash
-gcloud compute --project "{{project-id}}" ssh --zone <vm-zone> <vm-name>
-```
+Click on the [SSH buttons][spotlight-ssh-buttons] to connect to the machine. 
 
 
 ## Cleanup
@@ -94,19 +88,7 @@ to your instance name and click the [Delete button][spotlight-delete-button].
 
 You're done!
 
-Here's what you can do next:
-
-*   Find Google Cloud Platform
-    [samples on GitHub](http://googlecloudplatform.github.io/).
-
-*   Learn how to set up
-    [Load Balancing](https://cloud.google.com/compute/docs/load-balancing/).
-
-*   Learn how to
-    [transfer files to your Virtual Machine](https://cloud.google.com/compute/docs/instances/transfer-files/).
-
-*   Learn how to
-    [run containers](https://cloud.google.com/compute/docs/containers).
+Go back to the game, and keep questing.
 
 [pricing]: https://cloud.google.com/compute/#compute-engine-pricing
 [spotlight-create-instance]: walkthrough://spotlight-pointer?=gce-zero-new-vm,gce-vm-list-new
