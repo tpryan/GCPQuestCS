@@ -1,6 +1,6 @@
 # Compute Engine Quickstart
 
-<walkthrough-tutorial-url url="https://cloud.google.com/compute/docs/quickstart-linux"></walkthrough-tutorial-url>
+<walkthrough-tutorial-url url="https://cloud.google.com/compute/docs/gcpquest/sysintro"></walkthrough-tutorial-url>
 
 ## Introduction
 
