@@ -7,18 +7,20 @@
 <walkthrough-tutorial-duration duration="10"></walkthrough-tutorial-duration>
 
 You've been tasked with creating a Cloud Function that spits out a random 
-hexadecimal color value. 
+hexadecimal token. Relatively easy to code, and even easier to create the 
+Cloud Funcion.  This walkthrough will take you through the whole thing.
 
 ## Project setup
 
 Google Cloud Platform organizes resources into projects. This allows you to
 collect all the related resources for a single application in one place.
 
+*You may have already selected a project in a preview step, if it is in the box
+below, then you are all set.* 
+
 <walkthrough-project-billing-setup permissions="compute.instances.create"></walkthrough-project-billing-setup>
 
 ## Navigate to Cloud Functions
-
-
 
 Open the [menu][spotlight-console-menu] on the left side of the console.
 
@@ -71,6 +73,12 @@ Once the function is done spinning up, you can click on [tokenGenerator][spotlig
 
 Click on the [Testing][spotlight-function-test] tab.
 
+
+Click on the [Test the function][spotlight-function-test-do] button.
+
+
+You should get a random token. 
+
 ## Conclusion
 
 <walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
@@ -105,4 +113,4 @@ Go back to the game, and keep questing.
 [spotlight-code-tab]: walkthrough://spotlight-pointer?cssSelector=.p6n-fullscreen-codemirror
 [spotlight-function-link]: walkthrough://spotlight-pointer?cssSelector=.p6n-icon-status
 [spotlight-function-test]: walkthrough://spotlight-pointer?cssSelector=.goog-tab:nth-child(4)
-
+[spotlight-function-test-do]: walkthrough://spotlight-pointer?cssSelector=.p6n-loading-button-regular-text
