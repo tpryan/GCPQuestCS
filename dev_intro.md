@@ -98,5 +98,6 @@ Go back to the game, and keep questing.
 [spotlight-enable-button]: walkthrough://spotlight-pointer?cssSelector=.jfk-button-action
 [spotlight-function-execute]: walkthrough://spotlight-pointer?cssSelector=.p6n-form-row-input
 [spotlight-function-create]: walkthrough://spotlight-pointer?cssSelector=.jfk-button-primary
-[spotlight-function-link]: walkthrough://spotlight-pointer?cssSelector=td a
 [spotlight-function-name]: walkthrough://spotlight-pointer?cssSelector=.jfk-textinput
+[spotlight-function-link]: walkthrough://spotlight-pointer?cssSelector=td%20a
+
