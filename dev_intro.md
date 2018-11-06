@@ -62,7 +62,7 @@ Change the value in [Function to execute][spotlight-function-execute] to:
 ```js
 tokenGenerator
 ```
-And click on [Create][spotlight-enable-button] button.
+And click on [Create][spotlight-function-create-code]] button.
 
 Now we wait...
 
@@ -96,8 +96,9 @@ Go back to the game, and keep questing.
 [spotlight-delete-button]: walkthrough://spotlight-pointer?cssSelector=.p6n-icon-delete
 [spotlight-machine-type]: walkthrough://spotlight-pointer?spotlightId=gce-add-machine-type
 [spotlight-enable-button]: walkthrough://spotlight-pointer?cssSelector=.jfk-button-action
-[spotlight-function-execute]: walkthrough://spotlight-pointer?cssSelector=.p6n-form-row-input:nth-of-type(1)
+[spotlight-function-execute]: walkthrough://spotlight-pointer?cssSelector=.p6n-form-row.ng-pristine.ng-valid.ng-valid-required
 [spotlight-function-create]: walkthrough://spotlight-pointer?cssSelector=.jfk-button-primary
+[spotlight-function-create-code]: walkthrough://spotlight-pointer?cssSelector=.jp6n-compute-create-form-button
 [spotlight-function-name]: walkthrough://spotlight-pointer?cssSelector=.jfk-textinput
 [spotlight-code-tab]: walkthrough://spotlight-pointer?cssSelector=.p6n-fullscreen-codemirror
 [spotlight-function-link]: walkthrough://spotlight-pointer?cssSelector=td%20a
