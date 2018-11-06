@@ -14,7 +14,8 @@ Cloud Funcion.  This walkthrough will take you through the whole thing.
 
 Google Cloud Platform organizes resources into projects. This allows you to
 collect all the related resources for a single application in one place.
-
+&nbsp;  
+&nbsp;   
 *You may have already selected a project in a preview step, if it is in the box
 below, then you are all set.* 
 
@@ -23,7 +24,8 @@ below, then you are all set.*
 ## Navigate to Cloud Functions
 
 Open the [menu][spotlight-console-menu] on the left side of the console.
-
+&nbsp;  
+&nbsp;   
 Then, select the **Cloud Functions** section.
 
 <walkthrough-menu-navigation sectionId="FUNCTIONS_SECTION"></walkthrough-menu-navigation>
@@ -45,7 +47,8 @@ Change the [name][spotlight-function-name] to:
 ```js
 tokenGenerator
 ```
-
+&nbsp;  
+&nbsp;   
 Copy and paste this token generating code into [index.js][spotlight-code-tab]
 ```js
 exports.tokenGenerator = (req, res) => {
@@ -53,7 +56,8 @@ exports.tokenGenerator = (req, res) => {
   res.status(200).send(message);
 };  
 ```
-
+&nbsp;  
+&nbsp;   
 Switch to [package.json][spotlight-code-tab] and copy and paste this code:
 ```js
 {
@@ -67,18 +71,20 @@ Change the value in [Function to execute][spotlight-function-execute] to:
 tokenGenerator
 ```
 And click on [Create][spotlight-function-create-code] button.
-
-Now we wait...
+&nbsp;  
+&nbsp;   
+Now we wait... When it is done, click through to the next step of the tutorial.
 
 ## Test
 Once the function is done spinning up, you can click on [tokenGenerator][spotlight-function-link].
-
+&nbsp;  
+&nbsp;   
 Click on the [Testing][spotlight-function-test] tab.
-
-
+&nbsp;  
+&nbsp;   
 Click on the [Test the function][spotlight-function-test-do] button.
-
-
+&nbsp;  
+&nbsp;   
 You should get a random token. 
 
 ## Conclusion
