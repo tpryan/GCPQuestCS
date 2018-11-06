@@ -50,7 +50,7 @@ exports.tokenGenerator = (req, res) => {
 };  
 ```
 
-Switch to `package.json` and copy and paste this code:
+Switch to [package.json][spotlight-code-tab] and copy and paste this code:
 ```js
 {
   "name": "token-generator",
