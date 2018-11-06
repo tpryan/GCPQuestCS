@@ -18,7 +18,6 @@ collect all the related resources for a single application in one place.
 
 ## Navigate to Cloud Functions
 
-ADD PAART ABOUT ENBALING THE API
 
 
 Open the [menu][spotlight-console-menu] on the left side of the console.
@@ -33,7 +32,7 @@ Click on the [Enable API][spotlight-enable-button] button in the middle.
 
 Wait for that to finish. 
 
-Click on the [Create Function][spotlight-enable-button] button in the middle.
+Click on the [Create Function][spotlight-function-create] button in the middle.
 
 
 ## Create a Function
@@ -100,3 +99,4 @@ Go back to the game, and keep questing.
 [spotlight-function-execute]: walkthrough://spotlight-pointer?cssSelector=.p6n-form-row-input
 [spotlight-function-link]: walkthrough://spotlight-pointer?cssSelector=td a
 [spotlight-function-name]: walkthrough://spotlight-pointer?cssSelector=.jfk-textinput
+[spotlight-function-create]: walkthrough://spotlight-pointer?cssSelector=.jfk-button-primary
