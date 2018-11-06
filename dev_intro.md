@@ -62,7 +62,7 @@ Change the value in [Function to execute][spotlight-function-execute] to:
 ```js
 tokenGenerator
 ```
-And click on [Create][spotlight-function-create-code]] button.
+And click on [Create][spotlight-function-create-code] button.
 
 Now we wait...
 
