@@ -96,7 +96,7 @@ Go back to the game, and keep questing.
 [spotlight-delete-button]: walkthrough://spotlight-pointer?cssSelector=.p6n-icon-delete
 [spotlight-machine-type]: walkthrough://spotlight-pointer?spotlightId=gce-add-machine-type
 [spotlight-enable-button]: walkthrough://spotlight-pointer?cssSelector=.jfk-button-action
-[spotlight-function-execute]: walkthrough://spotlight-pointer?cssSelector=.p6n-form-row-input
+[spotlight-function-execute]: walkthrough://spotlight-pointer?cssSelector=.p6n-form-row-input:nth-of-type(5)
 [spotlight-function-create]: walkthrough://spotlight-pointer?cssSelector=.jfk-button-primary
 [spotlight-function-name]: walkthrough://spotlight-pointer?cssSelector=.jfk-textinput
 [spotlight-code-tab]: walkthrough://spotlight-pointer?cssSelector=.p6n-fullscreen-codemirror
