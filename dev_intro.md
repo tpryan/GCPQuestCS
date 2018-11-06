@@ -31,9 +31,9 @@ Then, select the **Cloud Functions** section.
 ## Enable the API and Create a Function
 
 Click on the [Enable API][spotlight-enable-button] button in the middle.
-
+<br />
 Wait for that to finish. 
-
+<br />
 Click on the [Create Function][spotlight-function-create] button in the middle.
 
 
