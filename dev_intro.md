@@ -44,7 +44,7 @@ Click on the [Create Function][spotlight-function-create] that now appears.
 
 ## Create a Function
 Change both the [name][spotlight-function-name] and 
-[Function to execute][spotlight-function-execute] to:
+[Function to execute][spotlight-function-name] to:
 
 ```js
 tokenGenerator
