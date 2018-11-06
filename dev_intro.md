@@ -16,9 +16,10 @@ Google Cloud Platform organizes resources into projects. This allows you to
 collect all the related resources for a single application in one place.
 &nbsp;  
 &nbsp;   
-*You may have already selected a project in a preview step, if it is in the box
-below, then you are all set.* 
-
+*You may have already selected a project in a previews tutorial, if it is in 
+the box below, then you are all set.* 
+&nbsp;  
+&nbsp;  
 <walkthrough-project-billing-setup permissions="compute.instances.create"></walkthrough-project-billing-setup>
 
 ## Navigate to Cloud Functions
