@@ -97,6 +97,6 @@ Go back to the game, and keep questing.
 [spotlight-machine-type]: walkthrough://spotlight-pointer?spotlightId=gce-add-machine-type
 [spotlight-enable-button]: walkthrough://spotlight-pointer?cssSelector=.jfk-button-action
 [spotlight-function-execute]: walkthrough://spotlight-pointer?cssSelector=.p6n-form-row-input
+[spotlight-function-create]: walkthrough://spotlight-pointer?cssSelector=.jfk-button-primary
 [spotlight-function-link]: walkthrough://spotlight-pointer?cssSelector=td a
 [spotlight-function-name]: walkthrough://spotlight-pointer?cssSelector=.jfk-textinput
-[spotlight-function-create]: walkthrough://spotlight-pointer?cssSelector=.jfk-button-primary
