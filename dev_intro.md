@@ -39,11 +39,12 @@ Click on the [Enable API][spotlight-enable-button] button in the middle.
 Wait for that to finish. 
 &nbsp;  
 &nbsp;   
-Click on the [Create Function][spotlight-function-create] button in the middle.
+Click on the [Create Function][spotlight-function-create] that now appears.
 
 
 ## Create a Function
-Change the [name][spotlight-function-name] to:
+Change both the [name][spotlight-function-name] and 
+[Function to execute][spotlight-function-execute] to:
 
 ```js
 tokenGenerator
@@ -66,11 +67,8 @@ Switch to [package.json][spotlight-code-tab] and copy and paste this code:
   "version": "0.0.1"
 }  
 ```
-Change the value in [Function to execute][spotlight-function-execute] to:
-
-```js
-tokenGenerator
-```
+&nbsp;  
+&nbsp;  
 And click on [Create][spotlight-function-create-code] button.
 &nbsp;  
 &nbsp;   
