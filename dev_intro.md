@@ -99,6 +99,6 @@ Go back to the game, and keep questing.
 [spotlight-function-execute]: walkthrough://spotlight-pointer?cssSelector=.p6n-form-row-input
 [spotlight-function-create]: walkthrough://spotlight-pointer?cssSelector=.jfk-button-primary
 [spotlight-function-name]: walkthrough://spotlight-pointer?cssSelector=.jfk-textinput
-[spotlight-code-tab]: walkthrough://spotlight-pointer?cssSelector=.goog-tab-bar
+[spotlight-code-tab]: walkthrough://spotlight-pointer?cssSelector=.goog-tab-bar-top
 [spotlight-function-link]: walkthrough://spotlight-pointer?cssSelector=td%20a
 
