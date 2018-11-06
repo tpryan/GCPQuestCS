@@ -42,7 +42,7 @@ Change the [name][spotlight-function-name] to:
 tokenGenerator
 ```
 
-Copy and paste this token generating code into `index.js`
+Copy and paste this token generating code into [index.js][spotlight-code-tab]
 ```js
 exports.tokenGenerator = (req, res) => {
   let message = (Math.random().toString(36)+'00000000000000000').slice(2, 5+2);
@@ -99,5 +99,6 @@ Go back to the game, and keep questing.
 [spotlight-function-execute]: walkthrough://spotlight-pointer?cssSelector=.p6n-form-row-input
 [spotlight-function-create]: walkthrough://spotlight-pointer?cssSelector=.jfk-button-primary
 [spotlight-function-name]: walkthrough://spotlight-pointer?cssSelector=.jfk-textinput
+[spotlight-code-tab]: walkthrough://spotlight-pointer?cssSelector=.goog-tab-bar
 [spotlight-function-link]: walkthrough://spotlight-pointer?cssSelector=td%20a
 
