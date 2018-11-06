@@ -101,5 +101,5 @@ Go back to the game, and keep questing.
 [spotlight-function-create-code]: walkthrough://spotlight-pointer?spotlightId=gce-submit-button
 [spotlight-function-name]: walkthrough://spotlight-pointer?cssSelector=.jfk-textinput
 [spotlight-code-tab]: walkthrough://spotlight-pointer?cssSelector=.p6n-fullscreen-codemirror
-[spotlight-function-link]: walkthrough://spotlight-pointer?cssSelector=a.md-default-theme
+[spotlight-function-link]: walkthrough://spotlight-pointer?cssSelector=.p6n-icon-status
 
