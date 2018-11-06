@@ -69,6 +69,8 @@ Now we wait...
 ## Test
 Once the function is done spinning up, you can click on [tokenGenerator][spotlight-function-link].
 
+Click on the [Testing][spotlight-function-test] tab.
+
 ## Conclusion
 
 <walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
@@ -102,4 +104,5 @@ Go back to the game, and keep questing.
 [spotlight-function-name]: walkthrough://spotlight-pointer?cssSelector=.jfk-textinput
 [spotlight-code-tab]: walkthrough://spotlight-pointer?cssSelector=.p6n-fullscreen-codemirror
 [spotlight-function-link]: walkthrough://spotlight-pointer?cssSelector=.p6n-icon-status
+[spotlight-function-test]: walkthrough://spotlight-pointer?cssSelector=.goog-tab
 
