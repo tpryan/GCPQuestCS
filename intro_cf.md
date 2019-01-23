@@ -6,85 +6,83 @@
 
 <walkthrough-tutorial-duration duration="10"></walkthrough-tutorial-duration>
 
-You've been tasked with creating a Cloud Function that spits out a random 
-hexadecimal token. Relatively easy to code, and even easier to create the 
-Cloud Funcion.  This walkthrough will take you through the whole thing.
+You've been tasked with creating a Cloud Function that spits out a random
+hexadecimal token. Relatively easy to code, and even easier to create the Cloud
+Function. This walkthrough will take you through the whole thing.
 
 ## Project setup
 
 Google Cloud Platform organizes resources into projects. This allows you to
-collect all the related resources for a single application in one place.
-&nbsp;  
-&nbsp;   
-*You may have already selected a project in a previews tutorial, if it is in 
-the box below, then you are all set.* 
-&nbsp;  
-&nbsp;  
+collect all the related resources for a single application in one place. &nbsp;
+\
+&nbsp; \
+*You may have already selected a project in a previews tutorial, if it is in the
+box below, then you are all set.* &nbsp; \
+&nbsp; \
 <walkthrough-project-billing-setup permissions="compute.instances.create"></walkthrough-project-billing-setup>
 
 ## Navigate to Cloud Functions
 
-Open the [menu][spotlight-console-menu] on the left side of the console.
-&nbsp;  
-&nbsp;   
+Open the [menu][spotlight-console-menu] on the left side of the console. &nbsp;
+\
+&nbsp; \
 Then, select the **Cloud Functions** section.
 
 <walkthrough-menu-navigation sectionId="FUNCTIONS_SECTION"></walkthrough-menu-navigation>
 
 ## Enable the API and Create a Function
 
-Click on the [Enable API][spotlight-enable-button] button in the middle.
-&nbsp;  
-&nbsp;   
-Wait for that to finish. 
-&nbsp;  
-&nbsp;   
+Click on the [Enable API][spotlight-enable-button] button in the middle. &nbsp;
+\
+&nbsp; \
+Wait for that to finish. &nbsp; \
+&nbsp; \
 Click on the [Create Function][spotlight-function-create] that now appears.
 
-
 ## Create a Function
-Change both the [name][spotlight-function-name] and 
+Change both the [name][spotlight-function-name] and
 [Function to execute][spotlight-function-name] to:
 
 ```js
 tokenGenerator
 ```
-&nbsp;  
-&nbsp;   
-Copy and paste this token generating code into [index.js][spotlight-code-tab]
+&nbsp; \
+&nbsp; \
+Delete all the contents of [index.js][spotlight-code-tab] and then copy and 
+paste this token generating code into that form field. 
+
+
 ```js
 exports.tokenGenerator = (req, res) => {
   let message = (Math.random().toString(36)+'00000000000000000').slice(2, 5+2);
   res.status(200).send(message);
-};  
+};
 ```
-&nbsp;  
-&nbsp;   
-Switch to [package.json][spotlight-code-tab] and copy and paste this code:
+
+Delete all the contents of [package.json][spotlight-code-tab] and copy and paste
+this code:
+
 ```js
 {
   "name": "token-generator",
   "version": "0.0.1"
-}  
+}
 ```
-&nbsp;  
-&nbsp;  
-And click on [Create][spotlight-function-create-code] button.
-&nbsp;  
-&nbsp;   
+
+And click on [Create][spotlight-function-create-code] button. &nbsp; \
+&nbsp; \
 Now we wait... When it is done, click through to the next step of the tutorial.
 
 ## Test
-Once the function is done spinning up, you can click on [tokenGenerator][spotlight-function-link].
-&nbsp;  
-&nbsp;   
-Click on the [Testing][spotlight-function-test] tab.
-&nbsp;  
-&nbsp;   
-Click on the [Test the function][spotlight-function-test-do] button.
-&nbsp;  
-&nbsp;   
-You should get a random token. 
+
+Once the function is done spinning up, you can click on
+[tokenGenerator][spotlight-function-link]. &nbsp; \
+&nbsp; \
+Click on the [Testing][spotlight-function-test] tab. &nbsp; \
+&nbsp; \
+Click on the [Test the function][spotlight-function-test-do] button. &nbsp; \
+&nbsp; \
+You should get a random token.
 
 ## Conclusion
 

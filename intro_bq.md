@@ -6,20 +6,19 @@
 
 <walkthrough-tutorial-duration duration="10"></walkthrough-tutorial-duration>
 
-You've been tasked with querying a very specific question using BigQuery: what was
-the second most common name for individuals born in the US in 1976.  Don't
-worry, this tutorial will walk you through it. 
+You've been tasked with querying a very specific question using BigQuery: what
+was the second most common name for individuals born in the US in 1976. Don't
+worry, this tutorial will walk you through it.
 
 ## Project setup
 
 Google Cloud Platform organizes resources into projects. This allows you to
-collect all the related resources for a single application in one place.
-&nbsp;  
-&nbsp;    
-*You may have already selected a project in a previews tutorial, if it is in 
-the box below, then you are all set.* 
-&nbsp;  
-&nbsp;   
+collect all the related resources for a single application in one place. &nbsp;
+\
+&nbsp; \
+*You may have already selected a project in a previews tutorial, if it is in the
+box below, then you are all set.* &nbsp; \
+&nbsp; \
 <walkthrough-project-billing-setup permissions="compute.instances.create"></walkthrough-project-billing-setup>
 
 ## Navigate to BigQuery
@@ -33,28 +32,25 @@ Then, select the **BigQuery** section.
 ## Ask the right question
 
 The question you were asked was about demographic data, specifically popular
-names in a given year.  We can use one of public datasets on Big Query to 
-answer that. 
-&nbsp;  
-&nbsp;  
+names in a given year. We can use one of public datasets on Big Query to answer
+that. &nbsp; 
+
 Copy and paste this query into the [Query Editor][spotlight-query].
-&nbsp;  
-&nbsp;  
+
 ```sql
-SELECT    name, SUM(number) as total 
-FROM      `bigquery-public-data.usa_names.usa_1910_2013`
-WHERE     year = 1976 
-GROUP BY  name, gender
-ORDER BY  total DESC
-LIMIT     10
+SELECT name, SUM(number) as total
+FROM `bigquery-public-data.usa_names.usa_1910_2013`
+WHERE year = 1976
+GROUP BY name, gender
+ORDER BY total
+DESC
+LIMIT 10
 ```
-&nbsp;  
-&nbsp;  
-Then click the [Run Query][spotlight-run] button.
-&nbsp;  
-&nbsp;  
-When it is done, you should see that *Jennifer* is the second most common 
-name for individuals born in 1976. 
+
+Then click the [Run Query][spotlight-run] button. &nbsp; \
+&nbsp; \
+When it is done, you should see that *Jennifer* is the second most common name
+for individuals born in 1976.
 
 ## Conclusion
 
