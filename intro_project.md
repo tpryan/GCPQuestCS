@@ -13,7 +13,7 @@ Before you can can play the game, you have to make sure that you have a Google
 Cloud account ready. If you are already a Google Cloud user, you are strongly
 urged to **create a new project** to play the game.   
 
-<walkthrough-project-billing-setup></walkthrough project-billing-setup>
+<walkthrough-project-billing-setup permissions="compute.instances.create"></walkthrough-project-billing-setup>
 ## Project Setup
 Google Cloud Platform organizes resources into projects. This allows you to
 collect all the related resources for a single application in one place. &nbsp;
