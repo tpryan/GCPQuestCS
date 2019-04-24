@@ -26,11 +26,11 @@ limitation of the engine behind Cloud Journey, and not of GCP.
 ## Record Project ID
 
 **Please *Copy the ID* of the project you created. You will need this 
-in the game**
-
+in the game**  
+&nbsp;
 ## Install Game Helper Application
 The game uses an App Engine application to make various progress checks. You
-must install this to progress in the game. 
+must install this to progress in the game.  
 
 
 * Click on Cloud Shell  <open-cloud-shell-button></open-cloud-shell-button>
@@ -43,7 +43,7 @@ git clone https://github.com/tpryan/GCPQuest-Companion.git
 cd GCPQuest-Companion && make
 ```
 * Once App Engine application you should see a success message.
-
+&nbsp;
 
 ## Conclusion
 
