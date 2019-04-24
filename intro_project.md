@@ -27,10 +27,13 @@ limitation of the engine behind Cloud Journey, and not of GCP.
 <walkthrough-project-billing-setup></walkthrough-project-billing-setup>
 
 ## Record Project ID
-
 **Please *Copy the ID* of the project you created. You will need this 
 in the game**  
-&nbsp;
+\
+&nbsp; \
+You can see it by clicking the [Project Selector][spotlight-purview-switcher]
+
+
 ## Install Game Helper Application
 The game uses an App Engine application to make various progress checks. You
 must install this to progress in the game.  
