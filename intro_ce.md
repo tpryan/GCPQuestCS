@@ -1,4 +1,6 @@
-# Compute Engine Quickstart
+# Cloud Journey Compute Engine Quickstart
+
+![Cloud Journey](title.png "Cloud Journey Tutorial")
 
 <walkthrough-tutorial-url url="https://cloud.google.com/compute/docs/gcpquest/sysintro"></walkthrough-tutorial-url>
 
@@ -6,15 +8,19 @@
 
 <walkthrough-tutorial-duration duration="10"></walkthrough-tutorial-duration>
 
-You've been tasked with creating a very specific VM for GCPQuest.  Don't worry!
+You've been tasked with creating a very specific VM for GCPQuest. Don't worry!
 Continue with this guide to get it done!
 
 ## Project setup
 
 Google Cloud Platform organizes resources into projects. This allows you to
-collect all the related resources for a single application in one place.
-
-<walkthrough-project-billing-setup permissions="compute.instances.create"></walkthrough-project-billing-setup>
+collect all the related resources for a single application in one place. &nbsp;
+\
+&nbsp; \
+*You may have already selected a project in a previews tutorial, if it is in the
+box below, then you are all set.* &nbsp; \
+&nbsp; \
+<walkthrough-project-billing-setup></walkthrough-project-billing-setup>
 
 ## Navigate to Compute Engine
 
@@ -24,6 +30,9 @@ Then, select the **Compute Engine** section.
 
 <walkthrough-menu-navigation sectionId="COMPUTE_SECTION"></walkthrough-menu-navigation>
 
+*If this is the first time you are using this project, you may have to wait a
+few minutes for Compute Engine to be setup for your account.*
+
 ## Create a virtual machine instance
 
 Click the [Create instance][spotlight-create-instance] button.
@@ -31,11 +40,10 @@ Click the [Create instance][spotlight-create-instance] button.
 *   Select a [name][spotlight-instance-name] and [zone][spotlight-instance-zone]
     for this instance.
 
-*   In the Machine Type selector, select **Customize**. 
+*   In the Machine Type selector, click on
+    **[Machine Type][spotlight-machine-type]** dropdown.
 
-*   Set **Cores** to 8. 
-
-*   Set **Memory** to 42. 
+*   Select **micro (1 shared vCPU)**
 
 *   Click the [Create][spotlight-submit-create] button to create the instance.
 
@@ -64,7 +72,6 @@ session to your instance in a separate window.
 For this tutorial you will connect using Cloud Shell. Cloud Shell is a built-in
 command line tool for the console.
 
-
 ### Wait for the instance creation to finish
 
 The instance creation needs to finish before the tutorial can proceed. The
@@ -74,13 +81,8 @@ top.
 
 ### Connect to the instance
 
-Click on the [SSH buttons][spotlight-ssh-buttons] to connect to the machine. 
-
-
-## Cleanup
-
-To remove your instance, select the [checkbox][spotlight-instance-checkbox] next
-to your instance name and click the [Delete button][spotlight-delete-button].
+Click on the [SSH buttons][spotlight-ssh-buttons] to connect to the machine.
+Play around, but you don't have to do anything.
 
 ## Conclusion
 

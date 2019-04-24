@@ -1,4 +1,6 @@
-# Cloud Functions Quickstart
+# Cloud Journey Cloud Functions Quickstart
+
+![Cloud Journey](title.png "Cloud Journey Tutorial")
 
 <walkthrough-tutorial-url url="https://cloud.google.com/compute/docs/gcpquest/adintro"></walkthrough-tutorial-url>
 
@@ -19,7 +21,7 @@ collect all the related resources for a single application in one place. &nbsp;
 *You may have already selected a project in a previews tutorial, if it is in the
 box below, then you are all set.* &nbsp; \
 &nbsp; \
-<walkthrough-project-billing-setup permissions="compute.instances.create"></walkthrough-project-billing-setup>
+<walkthrough-project-billing-setup></walkthrough-project-billing-setup>
 
 ## Navigate to Cloud Functions
 
@@ -30,27 +32,20 @@ Then, select the **Cloud Functions** section.
 
 <walkthrough-menu-navigation sectionId="FUNCTIONS_SECTION"></walkthrough-menu-navigation>
 
-## Enable the API and Create a Function
-
-Click on the [Enable API][spotlight-enable-button] button in the middle. &nbsp;
-\
-&nbsp; \
-Wait for that to finish. &nbsp; \
-&nbsp; \
-Click on the [Create Function][spotlight-function-create] that now appears.
-
 ## Create a Function
-Change both the [name][spotlight-function-name] and
+
+Click on [Create Function][spotlight-function-create]. Change both the
+[name][spotlight-function-name] and
 [Function to execute][spotlight-function-name] to:
 
 ```js
 tokenGenerator
 ```
-&nbsp; \
-&nbsp; \
-Delete all the contents of [index.js][spotlight-code-tab] and then copy and 
-paste this token generating code into that form field. 
 
+&nbsp; \
+&nbsp; \
+Delete all the contents of [index.js][spotlight-code-tab] and then copy and
+paste this token generating code into that form field.
 
 ```js
 exports.tokenGenerator = (req, res) => {
