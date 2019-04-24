@@ -13,14 +13,17 @@ Before you can can play the game, you have to make sure that you have a Google
 Cloud account ready and a project to run the game. You may have already 
 selected a project in a previews tutorial, if it is in the box below, and it is the one you want to use for this game, then you are all set. If, not continue 
 on.  
-
+\
+&nbsp; \
 **If you are already a Google Cloud user, you are strongly
 urged to create a new project to play the game.**   
-
+\
+&nbsp; \
 If you would like to create a new project for the game do the follow below. 
 Please note: Limit project names to **30 characters** or less. This is a 
 limitation of the engine behind Cloud Journey, and not of GCP.   
-
+\
+&nbsp; \
 <walkthrough-project-billing-setup></walkthrough-project-billing-setup>
 
 ## Record Project ID
