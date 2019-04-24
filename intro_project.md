@@ -40,14 +40,15 @@ must install this to progress in the game.
 
 
 Open Cloud Shell by clicking
-<walkthrough-cloud-shell-icon></walkthrough-cloud-shell-icon>
-[icon][spotlight-open-devshell] in the navigation bar at the top of the console.
+<walkthrough-cloud-shell-icon></walkthrough-cloud-shell-icon> in the navigation
+bar at the top of the console.
 
 &nbsp;
 
 A Cloud Shell session opens inside a new frame at the bottom of the console and displays a command-line prompt. It can take a few seconds for the shell session 
 to be initialized.
-
+\
+&nbsp; \
 When Cloud Shell is ready type:
 ```bash
 git clone https://github.com/tpryan/GCPQuest-Companion.git
@@ -57,7 +58,7 @@ Then type the following:
 ```bash
 cd GCPQuest-Companion && make
 ```
-* Once App Engine application is installed you should see a success message.
+Once App Engine application is installed you should see a success message.
 &nbsp;
 
 ## Conclusion
