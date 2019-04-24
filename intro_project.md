@@ -1,34 +1,89 @@
-# Project Quickstart
+# Cloud Journey Project Quickstart
+![Cloud Journey](title.png "Cloud Journey Tutorial")
 
-<walkthrough-tutorial-url url="https://cloud.google.com/compute/docs/gcpquest/intro_project"></walkthrough-tutorial-url>
+<walkthrough-tutorial-url 
+url="https://cloud.google.com/compute/docs/gcpquest/intro_project">
+ </walkthrough-tutorial-url>
 
 ## Introduction
 
 <walkthrough-tutorial-duration duration="10"></walkthrough-tutorial-duration>
 
-Before you can do anything with Google Cloud, you have to login to the project 
-provided to you by Instruqt. We'll talk you through doing that. 
+Before you can can play the game, you have to make sure that you have a Google
+Cloud account ready. If you are already a Google Cloud user, you are strongly
+urged to **create a new project** to play the game.   
 
-## Project setup
-
+<walkthrough-project-billing-setup></walkthrough project-billing-setup>
+## Project Setup
 Google Cloud Platform organizes resources into projects. This allows you to
 collect all the related resources for a single application in one place. &nbsp;
 \
 &nbsp; \
 *You may have already selected a project in a previews tutorial, if it is in the
-box below, then you are all set.* &nbsp; \
-&nbsp; \
+box below, and it is the one you want to use for this game, then you are all 
+set. If, not continue on.* &nbsp; 
 
-If not:
-* Click on the F2 tab to navigate to the project credentials page
-* Copy the email listed on that page. 
-* Paste that email in email or phone form field.
-* hit Enter
-* Copy the password listed on that page. 
-* Paste that password in the password form field. 
-* Agree to terms and services
+## Confirm your account
+If this is the first time you have ever logged into Google Cloud, you will have 
+to agree to our Terms of Service. If you already have setup an account you can 
+just continue to the next step.  
+* Check the box that says "I agree to the Google Cloud Platform Terms of 
+Service, and the terms of service of any applicable services and APIs."
+* Click Agree and Continue
+
+## Activate Free Trial
+If you have already setup Billing for your GCP account you can just continue to 
+the next step otherwise keep reading. 
+
+This step will require you to input credit card information to Google Cloud. The
+purpose of this is to validate your identity, as long as you are using the free 
+trial you will not be charged for your usage of the game. 
+
+At the top of the window should be an alert that says "Your free trial is 
+waiting: activate now to get $300 credit to explore Google Cloud products."
+* Click on "Activate" 
+
+You will be sent to a new page. 
+* Check the box that says "I have read and agree to the Google Cloud Platform 
+Free Trial Terms of Service."
+* Click Agree and Continue
+
+You will be sent to a new page. 
+* Choose Individual Account
+* Fill in your name and address
+* Fill In payment method
+* Click Start Free Trial
+
+## Create GCP Project
+If this is your first time using GCP, you can use the new project that was 
+created for you.  
+* Click on [My First Project][spotlight-purview-switcher]
+* Please **Copy the ID** of "My First Project." **You will need this 
+in the game**.
+
+If you would like to create a new project for the game do the follow below. 
+Please note: Limit project names to **30 characters** or less. This is a 
+limitation of the engine behind Cloud Journey, and not of GCP.   
+
+* Click on the [Project Selector][spotlight-purview-switcher]
+* Click on New Project
+* Give your project a name
+* Please **Copy the ID** of the project you created.  **You will need this 
+in the game**. 
 
 
+## Install Game Helper Application
+* Click on Cloud Shell  <open-cloud-shell-button></open-cloud-shell-button>
+* When Cloud Shell starts type:
+    `git clone https://github.com/tpryan/GCPQuest-Companion.git`
+* Type `cd GCPQuest-Companion`
+* Type `make` 
+* This make take a few minutes. 
+* Once App Engine application is done installing type
+* Congrats. Now close and go back to game. 
+NOTE ADD CHECK TO GAME HERE. DON'T MAKE THEM CONTINUE AND THEN FAIL
+
+tpryan.tester
 
 ## Conclusion
 
@@ -38,23 +93,5 @@ You're done!
 
 Go back to the game, and keep questing.
 
-[pricing]: https://cloud.google.com/compute/#compute-engine-pricing
-[spotlight-create-instance]: walkthrough://spotlight-pointer?=gce-zero-new-vm,gce-vm-list-new
-[spotlight-instance-name]: walkthrough://spotlight-pointer?spotlightId=gce-vm-add-name
-[spotlight-instance-zone]: walkthrough://spotlight-pointer?spotlightId=gce-vm-add-zone-select
-[spotlight-boot-disk]: walkthrough://spotlight-pointer?cssSelector=vm-set-boot-disk
-[spotlight-firewall]: walkthrough://spotlight-pointer?spotlightId=gce-vm-add-firewall
-[spotlight-vm-list]: walkthrough://spotlight-pointer?cssSelector=.p6n-checkboxed-table
-[spotlight-control-panel]: walkthrough://spotlight-pointer?cssSelector=#p6n-action-bar-container-main
-[spotlight-ssh-buttons]: walkthrough://spotlight-pointer?cssSelector=gce-connect-to-instance
-[spotlight-notification-menu]: walkthrough://spotlight-pointer?cssSelector=.p6n-notification-dropdown,.cfc-icon-notifications
-[spotlight-console-menu]: walkthrough://spotlight-pointer?spotlightId=console-nav-menu
-[spotlight-open-devshell]: walkthrough://spotlight-pointer?spotlightId=devshell-activate-button
-[spotlight-machine-type]: walkthrough://spotlight-pointer?spotlightId=gce-add-machine-type-select
-[spotlight-submit-create]: walkthrough://spotlight-pointer?spotlightId=gce-submit
-[spotlight-external-ip]: walkthrough://spotlight-pointer?cssSelector=.p6n-external-link
-[spotlight-instance-checkbox]: walkthrough://spotlight-pointer?cssSelector=.p6n-checkbox-form-label
-[spotlight-delete-button]: walkthrough://spotlight-pointer?cssSelector=.p6n-icon-delete
-[spotlight-machine-type]: walkthrough://spotlight-pointer?spotlightId=gce-add-machine-type
-[spotlight-query]: walkthrough://spotlight-pointer?cssSelector=.p6n-code-mirror-editor
-[spotlight-run]: walkthrough://spotlight-pointer?cssSelector=.p6n-split-button
+
+[spotlight-purview-switcher]: walkthrough://spotlight-pointer?spotlightId=purview-switcher
