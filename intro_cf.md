@@ -1,6 +1,6 @@
 # Cloud Journey Cloud Functions Quickstart
 
-![Cloud Journey](title.png "Cloud Journey Tutorial")
+![Cloud Journey](https://walkthroughs.googleusercontent.com/content/gcpquest/title.png "Cloud Journey Tutorial")
 
 <walkthrough-tutorial-url url="https://cloud.google.com/compute/docs/gcpquest/adintro"></walkthrough-tutorial-url>
 

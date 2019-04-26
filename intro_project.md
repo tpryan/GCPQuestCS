@@ -11,14 +11,17 @@ url="https://cloud.google.com/compute/docs/gcpquest/intro_project">
 <walkthrough-tutorial-duration duration="10"></walkthrough-tutorial-duration>
 
 Before you can can play the game, you have to make sure that you have a Google
-Cloud account ready and a project to run the game. You may have already selected
-a project in a previews tutorial, if it is in the box below, and it is the one
-you want to use for this game, then you are all set. If, not continue on. \
+Cloud account ready and a project to run the game. **If you are already a 
+Google Cloud user, you must create a new project to play the game.** \
 &nbsp; \
-**If you are already a Google Cloud user, you are strongly urged to create a new
-project to play the game.** \
+This tutorial will instruct you to install an App Engine Application into
+your project. **If you already have an App Engine application it will replace
+it.** That's why you should use a clean project. \
 &nbsp; \
-If you would like to create a new project for the game do the follow below.
+Additionally, the game will ask you to perform technical tasks in the Cloud 
+Console. All of these have been designed to use free options. 
+&nbsp; \
+To create a new project for the game follow below.
 Please note: Limit project names to **30 characters** or less. This is a
 limitation of the engine behind Cloud Journey, and not of GCP. \
 &nbsp; \
@@ -34,7 +37,8 @@ You can see it by clicking the [Project Selector][spotlight-purview-switcher]
 ## Install Game Helper Application
 
 The game uses an App Engine application to make various progress checks. You
-must install this to progress in the game.
+must install this to progress in the game. **If you already have an App Engine application it will replace
+it.**
 
 Open Cloud Shell by clicking
 <walkthrough-cloud-shell-icon></walkthrough-cloud-shell-icon> in the navigation
@@ -46,11 +50,20 @@ A Cloud Shell session opens inside a new frame at the bottom of the console and
 displays a command-line prompt. It can take a few seconds for the shell session
 to be initialized. \
 &nbsp; \
-When Cloud Shell is ready type: `bash git clone
-https://github.com/tpryan/GCPQuest-Companion.git`
+When Cloud Shell is ready enter the following:
 
-Then type the following: `bash cd GCPQuest-Companion && make` Once App Engine
-application is installed you should see a success message. &nbsp;
+```bash
+git clone https://github.com/tpryan/GCPQuest-Companion.git
+```
+
+When done enter the following:
+
+```bash
+cd GCPQuest-Companion && make
+```
+
+Once the App Engine application is installed you should see a success message.
+&nbsp;
 
 ## Conclusion
 

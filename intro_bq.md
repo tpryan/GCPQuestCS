@@ -1,4 +1,6 @@
-# BigQuery Quickstart
+# # Cloud Journey BigQuery Quickstart
+
+![Cloud Journey](https://walkthroughs.googleusercontent.com/content/gcpquest/title.png "Cloud Journey Tutorial")
 
 <walkthrough-tutorial-url url="https://cloud.google.com/compute/docs/gcpquest/bdintro"></walkthrough-tutorial-url>
 
